@@ -47,13 +47,16 @@ body {
 
 .inputval:focus {
   outline: 0;
-  border-color: #888;
 }
 
 .Submit:hover {
   color: #fff;
   background-color: #000;
   transition: 0.3s ease;
+}
+
+.Submit:focus {
+  outline: 0;
 }
 
 .Submit {
