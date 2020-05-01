@@ -50,6 +50,12 @@ body {
   border-color: #888;
 }
 
+.Submit:hover {
+  color: #fff;
+  background-color: #000;
+  transition: 0.3s ease;
+}
+
 .Submit {
   cursor: pointer;
   background-color: #000;
