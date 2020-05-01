@@ -1,6 +1,6 @@
 const input_text = document.getElementById('input-text');
 const submit = document.getElementById('submit');
-const name = document.getElementById('.name');
+const name = document.querySelector('.name');
 const temp = document.querySelector('.temp');
 const desc = document.querySelector('.desc');
 
