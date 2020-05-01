@@ -1,8 +1,7 @@
-var input = document.querySelector('.input_text');
-var main = document.querySelector('#name');
+var input = document.querySelector('.input-text');
+var city = document.querySelector('#city');
 var temp = document.querySelector('.temp');
-var desc = document.querySelector('.desc');
-var clouds = document.querySelector('.clouds');
+var city = document.querySelector('.city');
 var button = document.querySelector('.submit');
 
 button.addEventListener('click', function (name) {
