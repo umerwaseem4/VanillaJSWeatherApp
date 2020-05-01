@@ -18,7 +18,7 @@ body {
 }
 
 .temp {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .input-text {
@@ -26,7 +26,8 @@ body {
   border: 1px solid #fff;
 }
 
-.input-text:focus {
+.input-text:focus,
+.submit:focus {
   outline: 0;
 }
 
