@@ -1,8 +1,8 @@
 const input_text = document.getElementById('input-text');
 const submit = document.getElementById('submit');
-const name = document.getElementById('.name');
-const temp = document.querySelector('.temp');
-const desc = document.querySelector('.desc');
+const name = document.querySelector('h1');
+const temp = document.querySelector('h2');
+const desc = document.querySelector('h5');
 
 function weatherData() {
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' + input_text.value + '&appid=f670cd60c54c18b3edfa49d0f30c1a88&units=metric')
@@ -19,5 +19,5 @@ function weatherData() {
 
         .catch(err => alert("Wrong city name!"));
 }
-// Event Listeners
+
 submit.addEventListener('click', weatherData);

@@ -7,24 +7,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="input-section">
-        <input
-          type="text"
-          placeholder="Enter city name...."
-          class="input-text"
-        />
-        <input type="submit" value="Submit" class="submit" />
-      </div>
-
-      <div class="result-section">
-        <div class="card">
-          <h1 class="city" id="name">Lahore</h1>
-          <h1 class="temp">30</h1>
-          <h5 class="data">Partial Clouds</h5>
-        </div>
-      </div>
+    <div class="input-section">
+      <h1>Weather App</h1>
+      <input
+        type="text"
+        placeholder="Enter city name...."
+        class="input-text"
+        id="input-text"
+      />
+      <input type="submit" value="Submit" class="submit" id="submit" />
     </div>
-    <script src="script.js"></script>
+
+    <div class="result-section">
+      <h1 class="name" id="name"></h1>
+      <h2 class="temp" id="temp"></h2>
+      <h5 class="desc" id="desc"></h5>
+    </div>
+    <script src="index.js"></script>
   </body>
 </html>
